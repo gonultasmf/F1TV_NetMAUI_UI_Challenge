@@ -82,7 +82,7 @@ public partial class MainPage : FmgLibContentPage
                         .Padding(0)
                         .Background(Color.FromArgb("#e10600"))
                         .SizeRequest(70)
-                        .AlignBottomStart()
+                        .AlignBottomLeft()
                         .StrokeThickness(0)
                         .StrokeShape(new RoundRectangle().CornerRadius(new CornerRadius(0,30,0,0)))
                         .Content(
@@ -102,7 +102,7 @@ public partial class MainPage : FmgLibContentPage
                         .Margin(20,0)
                         .FontAttributes(Bold)
                         .FontSize(20)
-                        .AlignBottomStart()
+                        .AlignBottomLeft()
                         .Text("2024 British GP - Practice 2")
                     ),
 
@@ -160,7 +160,7 @@ public partial class MainPage : FmgLibContentPage
                             new Label()
                             .FontAttributes(Bold)
                             .FontSize(18)
-                            .AlignStart()
+                            .AlignTopLeft()
                             .Text("2024 British Grand Prix"),
 
                             new Label()
@@ -210,7 +210,7 @@ public partial class MainPage : FmgLibContentPage
                                     .Padding(0)
                                     .Background(Color.FromArgb("#1f1f27"))
                                     .SizeRequest(50)
-                                    .AlignBottomStart()
+                                    .AlignBottomLeft()
                                     .StrokeThickness(0)
                                     .StrokeShape(new RoundRectangle().CornerRadius(new CornerRadius(0,20,0,0)))
                                     .Content(
@@ -233,7 +233,7 @@ public partial class MainPage : FmgLibContentPage
                                 .Children(
                                     new Label().Margin(0,0,0,6).Text("00:10:22"),
                                     new Label().Text("PRACTICE 2 HIGHLIGHTS - Great Britain"),
-                                    new Label().Text("F1").AlignEnd().TextColor(Color.FromArgb("#e10600"))
+                                    new Label().Text("F1").AlignBottomRight().TextColor(Color.FromArgb("#e10600"))
                                 )
                             )
                         )
@@ -257,7 +257,7 @@ public partial class MainPage : FmgLibContentPage
                             .Padding(4)
                             .Background(Color.FromArgb("#38393e"))
                             .SizeRequest(110,30)
-                            .AlignBottomStart()
+                            .AlignBottomLeft()
                             .StrokeThickness(0)
                             .StrokeShape(new RoundRectangle().CornerRadius(15))
                             .Content(
